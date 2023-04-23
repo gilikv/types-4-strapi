@@ -34,7 +34,7 @@ fs.writeFileSync(`${typesDir}/Payload.ts`, payloadTsInterface);
 
 const userTsInterface = `export interface User {
   id: number;
-  attributes: {
+  // attributes: {
     username: string;
     email: string;
     provider: string;
@@ -42,7 +42,7 @@ const userTsInterface = `export interface User {
     blocked: boolean;
     createdAt: Date;
     updatedAt: Date;
-  }
+  // }
 }
 `;
 
@@ -75,7 +75,7 @@ var mediaTsInterface = `import { MediaFormat } from './MediaFormat';
 
 export interface Media {
   id: number;
-  attributes: {
+  // attributes: {
     name: string;
     alternativeText: string;
     caption: string;
@@ -91,7 +91,7 @@ export interface Media {
     provider: string;
     createdAt: Date;
     updatedAt: Date;
-  }
+  // }
 }
 `;
 
