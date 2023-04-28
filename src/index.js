@@ -5,7 +5,7 @@ const createInterface = require('./createInterface');
 const createComponentInterface = require('./createComponentInterface');
 const { pascalCase, isOptional } = require('./utils');
 
-const typesDir = 'types';
+const typesDir = 'src/types';
 
 if (!fs.existsSync(typesDir)) fs.mkdirSync(typesDir);
 
