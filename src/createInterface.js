@@ -138,7 +138,8 @@ module.exports = (schemaPath, interfaceName) => {
       attributeValue.type === 'datetime' ||
       attributeValue.type === 'time'
     ) {
-      tsPropertyType = 'Date';
+      //tsPropertyType = 'Date';
+      tsPropertyType = 'string';
       tsProperty = `  ${attributeName}: ${tsPropertyType};\n`;
     }
     // -------------------------------------------------
